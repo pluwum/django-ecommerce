@@ -17,4 +17,3 @@ class CustomUserAuth(object):
                 return user
         except CustomUser.DoesNotExist:
             return None
-        
